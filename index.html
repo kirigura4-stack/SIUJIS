@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIUJIS - Ujian Sekolah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-page">
+    <section class="login-card">
+      <div class="brand">
+        <div class="brand-mark">S</div>
+        <div><strong>SIUJIS</strong><span>Sistem Ujian Sekolah</span></div>
+      </div>
+      <h1>Masuk Ujian</h1>
+      <p class="subtitle">Masukkan nama dan token ujian untuk memulai.</p>
+      <form id="login-form">
+        <label for="student-name">Nama Peserta</label>
+        <input id="student-name" required placeholder="Contoh: Ahmad Rizki">
+        <label for="exam-token">Token Ujian</label>
+        <input id="exam-token" required placeholder="Masukkan token">
+        <button class="primary" type="submit">Mulai Ujian</button>
+      </form>
+      <p class="hint">Token demo: <strong>UJIAN2026</strong></p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
